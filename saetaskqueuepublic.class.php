@@ -14,7 +14,7 @@
  * <code>
  * <?php
  * $queue = new SaeTaskQueuePublic('test');
- * $queue->set('appName', 'accessKey', 'secretKey', 'appVersion');
+ * $queue->setAuth('appName', 'accessKey', 'secretKey', 'appVersion');
  *
  * //添加单个任务
  * $queue->addTask("/page1.php");
